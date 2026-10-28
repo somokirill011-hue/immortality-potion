@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Immortality",
+    "splashName": "Splash Potion of Immortality",
+    "lingeringName": "Lingering Potion of Immortality",
+    "arrowName": "Arrow of Immortality ",
+    "effects": [
+      {
+        "effect": "CUSTOM:Immortality",
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

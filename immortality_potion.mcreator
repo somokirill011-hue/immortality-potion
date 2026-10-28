@@ -1,0 +1,135 @@
+{
+  "mod_elements": [
+    {
+      "name": "ImmortalityPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "immortality_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ImmortalityEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "immortality_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mods/immortality_potion/procedures/ImmortalityEffectStartedappliedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Immortality",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "immortality",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mods/immortality_potion/potion/ImmortalityMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ImmortalityEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "immortality_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mods/immortality_potion/procedures/ImmortalityEffectExpiresProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ImmortalityPotion1",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortality_potion_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ImmortalityPotion2",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortality_potion_2",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.immortality_potion": "Lingering Potion of Immortality",
+      "item.minecraft.potion.effect.immortality_potion": "Potion of Immortality",
+      "item.minecraft.tipped_arrow.effect.immortality_potion": "Arrow of Immortality ",
+      "item.minecraft.splash_potion.effect.immortality_potion": "Splash Potion of Immortality",
+      "effect.immortality_potion.immortality": "Immortality",
+      "item.minecraft.splash_potion.effect.immortality_potion_1": "Splash Potion of Immortality",
+      "item.minecraft.potion.effect.immortality_potion_1": "Potion of Immortality",
+      "item.minecraft.lingering_potion.effect.immortality_potion_1": "Lingering Potion of Immortality",
+      "item.minecraft.tipped_arrow.effect.immortality_potion_1": "Arrow of Immortality ",
+      "item.minecraft.lingering_potion.effect.immortality_potion_2": "Lingering Potion of Immortality",
+      "item.minecraft.potion.effect.immortality_potion_2": "Potion of Immortality",
+      "item.minecraft.splash_potion.effect.immortality_potion_2": "Splash Potion of Immortality",
+      "item.minecraft.tipped_arrow.effect.immortality_potion_2": "Arrow of Immortality "
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mods/immortality_potion/init/ImmortalityPotionModMobEffects.java",
+      "src/main/java/net/mods/immortality_potion/init/ImmortalityPotionModPotions.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mods/immortality_potion/ImmortalityPotionMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "immortality_potion",
+    "modName": "Immortality Potion",
+    "version": "1.0.0",
+    "description": "🔥Immortality Potion — now you are unkillable! Try to break this mechanism — it won\u0027t work. 😎",
+    "author": "MisterCosmos",
+    "websiteURL": "https://modrinth.com/mod/immortality_potion",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "immortality",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mods.immortality_potion"
+  },
+  "mcreatorVersion": 202600233518
+}
